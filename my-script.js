@@ -12,8 +12,6 @@ document.getElementById('startButton').addEventListener('click', function() {
     // Step 3: Math.random() * (maxNum - minNum) scales the number into our range (example: 0.15 * 100 = 15).
     // Step 4: Math.floor rounds the number down to the nearest whole number.
     // Step 5: We add minNum at the end to keep the range within 1 and 101 (exclusive), without this the range would be 0 (inclusive) to 100 (exclusive)
-
-
     const randomNum = Math.floor(Math.random() * (maxNum - minNum) + minNum);
 
     document.getElementById("name").textContent += " " + nameInput;
