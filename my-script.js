@@ -5,7 +5,7 @@ document.getElementById('startButton').addEventListener('click', function() {
     const surnameInput = prompt('Please enter your surname:'); //asks user to input surname
     const colorInput = prompt('Please enter your age:'); //asks user to input fav color
     const minNum = 1;
-    const maxNum = 101; //in this case, the pseudo random number is between 1 (inclusive) and 100 (exclusive)
+    const maxNum = 101; //in this case, the pseudo random number is between 1 (inclusive) and 101 (exclusive)
 
     // Step 1: math.Random generates a pseudo random number between 0 and 1 (1 exclusive).
     // Step 2: maxNum - minNum sets the range.
